@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Dockerfiles: not explicitly specifying the base image. The original Dockerfile assumes Alpine Linux but doesn't explicitly state it. This leads to potential issues if the build environment or context changes. The solution shows the corrected Dockerfile with the explicit base image specification for clarity and reproducibility.
